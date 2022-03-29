@@ -21,8 +21,7 @@ use Illuminate\Bus\Queueable;
 use Illuminate\Contracts\Queue\ShouldQueue as ShouldQueueInterface;
 use Illuminate\Foundation\Bus\Dispatchable;
 
-final class DecrementReactionAggregatesJob implements
-    ShouldQueueInterface
+final class DecrementReactionAggregatesJob
 {
     use Dispatchable;
     use Queueable;
